@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **JunnB/JunnB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,4 +12,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Metrics](/github-metrics.svg)
+<img src="/github-metrics.svg" alt="Metrics" width="100%">
