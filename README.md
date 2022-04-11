@@ -13,6 +13,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=junnb&badges=3&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
+  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=junnb&badges=3&show-avatar=false&branding=false&style=--header-bg-color:%23000;--border-radius:10px"
 />
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="85%">
