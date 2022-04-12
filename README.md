@@ -13,6 +13,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <img
-  src="https://i.imgur.com/YCBd2b0.png"
+  src="https://i.imgur.com/kL6RtDQ.png"
 />
 <img align="center" src="/github-metrics.svg" alt="Metrics" width="85%">
