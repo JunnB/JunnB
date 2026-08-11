@@ -49,20 +49,19 @@ jobs:
           plugin_anilist_shuffle: yes
           plugin_anilist_user: hypermegajunn
 
+          # Audit de la plateforme principale.
+          # Ce plugin renvoyait "PageSpeed Insights API returned 400". Le site
+          # étant bien en ligne, le suspect n°1 est le secret PAGESPEED_TOKEN :
+          # une clé API invalide ou expirée fait répondre 400. Pour vérifier :
+          #   curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed\
+          #     ?url=https://betterfolio.tech&key=$PAGESPEED_TOKEN" | head
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_url: https://betterfolio.tech
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+
           # ── Désactivés : ces plugins rendaient une erreur visible dans l'image ──
-          #
-          # plugin_pagespeed  -> "PageSpeed Insights API returned 400" sur
-          #   https://betterfolio.tech. Le site est bien en ligne, donc le
-          #   suspect n°1 est le secret PAGESPEED_TOKEN (une clé API invalide
-          #   fait répondre 400 à l'API PageSpeed Insights). Pour vérifier :
-          #     curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed\
-          #       ?url=https://betterfolio.tech&key=$PAGESPEED_TOKEN" | head
-          #   Puis réactiver :
-          #     plugin_pagespeed: yes
-          #     plugin_pagespeed_detailed: yes
-          #     plugin_pagespeed_screenshot: yes
-          #     plugin_pagespeed_url: https://exemple.tld
-          #     plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           #
           # plugin_habits       -> "An error occured"
           # plugin_achievements -> "An error occured"

@@ -10,7 +10,7 @@
  ║   NAME......  JuNN                                                       ║
  ║   ORIGIN....  France  ::  Europe/Paris                                   ║
  ║   CLASS.....  Full-stack  /  product engineer                            ║
- ║   WEAPON....  TypeScript                                                 ║
+ ║   WEAPON....  TypeScript  +  Next.js                                     ║
  ║   ENTERED...  2016   ::  10 ans dans l'arène                             ║
  ║                                                                          ║
  ║   > Je construis des produits web de bout en bout, et je bricole         ║
@@ -23,14 +23,14 @@
 
 ```
  ╔════════════╦════════════╦════════════╦════════════╦════════════╗
- ║ TYPESCRIPT ║ JAVASCRIPT ║    HTML    ║    CSS     ║    RUBY    ║
- ║    LV.5    ║    LV.4    ║    LV.5    ║    LV.4    ║    LV.3    ║
+ ║ TYPESCRIPT ║  NEXT.JS   ║   REACT    ║ JAVASCRIPT ║   VERCEL   ║
+ ║    LV.5    ║    LV.5    ║    LV.5    ║    LV.4    ║    LV.4    ║
  ╠════════════╬════════════╬════════════╬════════════╬════════════╣
- ║    HAML    ║  GDSCRIPT  ║  PLPGSQL   ║  NEXT.JS   ║   REACT    ║
- ║    LV.3    ║    LV.3    ║    LV.2    ║    LV.5    ║    LV.5    ║
+ ║    HTML    ║    CSS     ║  POSTGRES  ║  PLPGSQL   ║   GODOT    ║
+ ║    LV.5    ║    LV.4    ║    LV.4    ║    LV.2    ║    LV.3    ║
  ╠════════════╬════════════╬════════════╬════════════╬════════════╣
- ║   VERCEL   ║   GODOT    ║   RAILS    ║  POSTGRES  ║    ???     ║
- ║    LV.4    ║    LV.3    ║    LV.3    ║    LV.4    ║   LOCKED   ║
+ ║  GDSCRIPT  ║    RUBY    ║    HAML    ║   RAILS    ║    ???     ║
+ ║    LV.3    ║    LV.3    ║    LV.3    ║    LV.3    ║   LOCKED   ║
  ╚════════════╩════════════╩════════════╩════════════╩════════════╝
 ```
 
@@ -42,10 +42,11 @@
 |:--|:--|:--|
 | `↓` `↘` `→` + **P** | **HADOKEN** | Ship un Next.js + TypeScript en prod |
 | `→` `↓` `↘` + **P** | **SHORYUKEN** | Le refacto qui remonte toute la codebase |
-| `↓` `↙` `←` + **K** | **TATSUMAKI** | Rails / Haml sur du legacy |
+| `↓` `↙` `←` + **K** | **TATSUMAKI** | Un front React qui balaie l'écran |
 | `←` *(2s)* `→` + **P** | **SONIC BOOM** | Prototype livré dans la journée |
 | `↓` `↘` `→` `↓` `↘` `→` + **P** | **SUPER COMBO** | Encore un side-project Godot |
 | `SELECT` + `START` | **CONTINUE?** | Debug à 2h du matin |
+| `↓` `↓` + **PP** | **SECRET MOVE** | Du legacy Rails / Haml remis d'aplomb |
 
 ## `▶` LIFE BARS &nbsp;::&nbsp; MOST USED LANGUAGES
 
@@ -89,9 +90,9 @@
  │ betterfolio          │ TypeScript   │ BOSS     ::  betterfolio.tech  │
  ├──────────────────────┼──────────────┼────────────────────────────────┤
  │ liste-noel           │ TypeScript   │ OPEN     ::  2025              │
- │ jdr / jdr-native     │ JavaScript   │ OPEN     ::  2018              │
- │ gatling-json-gen     │ -            │ OPEN     ::  2020              │
- │ PrintIt              │ Ruby         │ OPEN     ::  2016  (round 1)   │
+ ├──────────────────────┼──────────────┼────────────────────────────────┤
+ │ jdr / jdr-native     │ JavaScript   │ BONUS    ::  2018  archive     │
+ │ PrintIt              │ Ruby         │ BONUS    ::  2016  round 1     │
  ├──────────────────────┼──────────────┼────────────────────────────────┤
  │ ?????????            │ TypeScript   │ LOCKED   ::  privé             │
  │ ?????????            │ GDScript     │ LOCKED   ::  privé             │
