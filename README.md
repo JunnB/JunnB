@@ -1,18 +1,26 @@
-<!--
-**JunnB/JunnB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img src="/assets/01-marquee.svg" alt="JUNN II — Turbo Edition — Insert coin" width="100%">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<img
-  src="https://i.imgur.com/kL6RtDQ.png"
-/>
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="85%">
+<img src="/assets/02-character-select.svg" alt="Character select : TypeScript, Next.js, React, JavaScript, Vercel, Postgres, HTML, CSS, PLpgSQL, Godot, GDScript, Ruby, Haml, Rails" width="100%">
+
+<img src="/assets/03-high-scores.svg" alt="High scores : 1829 commits, 223 pull requests, 84 commentaires, 52 issues — et la répartition des langages, TypeScript en tête à 83,3 %" width="100%">
+
+<a href="https://betterfolio.tech"><img src="/assets/04-stage-select.svg" alt="Stage select : betterfolio.tech en boss, liste-noel ouvert, dépôts privés verrouillés" width="100%"></a>
+
+&nbsp;
+
+<a href="https://betterfolio.tech"><b>betterfolio.tech</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/JunnB"><b>github.com/JunnB</b></a>
+
+<details>
+<summary><b>CONTINUE? &nbsp; 9 &nbsp; 8 &nbsp; 7 &nbsp; ...</b></summary>
+
+<br>
+
+<img src="/github-metrics.svg" alt="Statistiques GitHub de JuNN" width="85%">
+
+</details>
+
+</div>
