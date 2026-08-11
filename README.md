@@ -1,18 +1,125 @@
-<!--
-**JunnB/JunnB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <img src="/assets/arcade-banner.svg" alt="JUNN II - TURBO EDITION - Insert Coin" width="100%">
+</div>
 
-Here are some ideas to get you started:
+```
+ ╔══════════════════════════════════════════════════════════════════════════╗
+ ║  SELECT PLAYER                                        CREDIT  00         ║
+ ╠══════════════════════════════════════════════════════════════════════════╣
+ ║                                                                          ║
+ ║   NAME......  JuNN                                                       ║
+ ║   ORIGIN....  France  ::  Europe/Paris                                   ║
+ ║   CLASS.....  Full-stack  /  product engineer                            ║
+ ║   WEAPON....  TypeScript                                                 ║
+ ║   ENTERED...  2016   ::  10 ans dans l'arène                             ║
+ ║                                                                          ║
+ ║   > Je construis des produits web de bout en bout, et je bricole         ║
+ ║   > des jeux sur Godot quand le combat devient trop calme.               ║
+ ║                                                                          ║
+ ╚══════════════════════════════════════════════════════════════════════════╝
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<img
-  src="https://i.imgur.com/kL6RtDQ.png"
-/>
-<img align="center" src="/github-metrics.svg" alt="Metrics" width="85%">
+## `▶` CHOOSE YOUR FIGHTER
+
+```
+ ╔════════════╦════════════╦════════════╦════════════╦════════════╗
+ ║ TYPESCRIPT ║ JAVASCRIPT ║    HTML    ║    CSS     ║    RUBY    ║
+ ║    LV.5    ║    LV.4    ║    LV.5    ║    LV.4    ║    LV.3    ║
+ ╠════════════╬════════════╬════════════╬════════════╬════════════╣
+ ║    HAML    ║  GDSCRIPT  ║  PLPGSQL   ║  NEXT.JS   ║   REACT    ║
+ ║    LV.3    ║    LV.3    ║    LV.2    ║    LV.5    ║    LV.5    ║
+ ╠════════════╬════════════╬════════════╬════════════╬════════════╣
+ ║   VERCEL   ║   GODOT    ║   RAILS    ║  POSTGRES  ║    ???     ║
+ ║    LV.4    ║    LV.3    ║    LV.3    ║    LV.4    ║   LOCKED   ║
+ ╚════════════╩════════════╩════════════╩════════════╩════════════╝
+```
+
+<sub>Les niveaux sont indicatifs, pas des métriques : ajuste-les comme tu veux.</sub>
+
+## `▶` COMMAND LIST
+
+| INPUT | MOVE | EFFECT |
+|:--|:--|:--|
+| `↓` `↘` `→` + **P** | **HADOKEN** | Ship un Next.js + TypeScript en prod |
+| `→` `↓` `↘` + **P** | **SHORYUKEN** | Le refacto qui remonte toute la codebase |
+| `↓` `↙` `←` + **K** | **TATSUMAKI** | Rails / Haml sur du legacy |
+| `←` *(2s)* `→` + **P** | **SONIC BOOM** | Prototype livré dans la journée |
+| `↓` `↘` `→` `↓` `↘` `→` + **P** | **SUPER COMBO** | Encore un side-project Godot |
+| `SELECT` + `START` | **CONTINUE?** | Debug à 2h du matin |
+
+## `▶` LIFE BARS &nbsp;::&nbsp; MOST USED LANGUAGES
+
+```
+ ┌──────────────────────────────────────────────────────────────────────────┐
+ │  TYPESCRIPT  █████████████████████████░░░░░  83.3 %                      │
+ │  HTML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.5 %                      │
+ │  HAML        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.4 %                      │
+ │  RUBY        █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   3.0 %                      │
+ │  CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.8 %                      │
+ │  JAVASCRIPT  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   2.1 %                      │
+ │  GDSCRIPT    █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.3 %                      │
+ │  PLPGSQL     █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.6 %                      │
+ ├──────────────────────────────────────────────────────────────────────────┤
+ │  K.O.  ::  TypeScript gagne le round par arrêt de l'arbitre.             │
+ └──────────────────────────────────────────────────────────────────────────┘
+```
+
+## `▶` HIGH SCORES
+
+```
+ ╔══════════════════════════════════════════════════════════════════════════╗
+ ║  RANK   SCORE      NAME                                                  ║
+ ╠══════════════════════════════════════════════════════════════════════════╣
+ ║   1ST   1 829      COMMITS                                               ║
+ ║   2ND     223      PULL REQUESTS OUVERTES                                ║
+ ║   3RD      84      COMMENTAIRES D'ISSUES                                 ║
+ ║   4TH      52      ISSUES OUVERTES                                       ║
+ ║   5TH      41      COMMITS EN UN SEUL JOUR   << PERFECT                  ║
+ ║   6TH      19      MEILLEURE SÉRIE (JOURS)                               ║
+ ║   7TH       8      DÉPÔTS CONTRIBUÉS                                     ║
+ ╚══════════════════════════════════════════════════════════════════════════╝
+```
+
+## `▶` STAGE SELECT
+
+```
+ ┌──────────────────────┬──────────────┬────────────────────────────────┐
+ │ STAGE                │ LANG         │ STATUS                         │
+ ├──────────────────────┼──────────────┼────────────────────────────────┤
+ │ liste-noel           │ TypeScript   │ OPEN     ::  2025              │
+ │ jdr / jdr-native     │ JavaScript   │ OPEN     ::  2018              │
+ │ gatling-json-gen     │ -            │ OPEN     ::  2020              │
+ │ PrintIt              │ Ruby         │ OPEN     ::  2016  (round 1)   │
+ ├──────────────────────┼──────────────┼────────────────────────────────┤
+ │ ?????????            │ TypeScript   │ LOCKED   ::  privé             │
+ │ ?????????            │ TypeScript   │ LOCKED   ::  privé             │
+ │ ?????????            │ GDScript     │ LOCKED   ::  privé             │
+ └──────────────────────┴──────────────┴────────────────────────────────┘
+```
+
+<sub>16 dépôts verrouillés. Le vrai boss fight se joue en privé.</sub>
+
+<details>
+<summary><b><code>▶</code> CONTINUE? &nbsp; 9 &nbsp; 8 &nbsp; 7 &nbsp; ... &nbsp;&nbsp; <i>(stats complètes)</i></b></summary>
+
+<br>
+
+<div align="center">
+  <img src="/github-metrics.svg" alt="Statistiques GitHub de JuNN" width="85%">
+</div>
+
+</details>
+
+## `▶` ROUND 1 &nbsp;&mdash;&nbsp; FIGHT!
+
+```
+ ┌──────────────────────────────────────────────────────────────────────────┐
+ │  GITHUB ....  github.com/JunnB                                           │
+ │  MAIL ......  -- à compléter --                                          │
+ │  SITE ......  -- à compléter --                                          │
+ └──────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+  <sub><code>PRESS START</code> &nbsp;·&nbsp; stats régénérées chaque jour par GitHub Actions</sub>
+</div>
