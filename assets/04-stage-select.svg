@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Stage select - betterfolio.tech">
-  <title>Stage select - betterfolio.tech</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" role="img" aria-label="Stage select - betterfolio.tech et portfolio">
+  <title>Stage select - betterfolio.tech et portfolio</title>
   <defs>
   <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#fffbe6"/><stop offset="28%" stop-color="#ffe066"/>
@@ -22,7 +22,7 @@
     <stop offset="100%" stop-color="#000" stop-opacity="0.72"/>
   </radialGradient>
 
-    <clipPath id="screen"><rect x="14" y="14" width="872" height="332" rx="18"/></clipPath>
+    <clipPath id="screen"><rect x="14" y="14" width="872" height="392" rx="18"/></clipPath>
     <style>
   .mono  { font-family: ui-monospace,"SF Mono","Cascadia Mono","DejaVu Sans Mono",Menlo,Consolas,monospace; }
   .heavy { font-family: "Arial Black","Helvetica Neue",Impact,Arial,sans-serif; font-weight:900; }
@@ -35,33 +35,44 @@
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.45} }
   @media (prefers-reduced-motion: reduce) { .blink,.pulse { animation:none } }
 
-  .boss{font-size:30px;fill:url(#gold)}
-  .st{font-size:14px;letter-spacing:2px;fill:#c8d3e8}
+  .boss{font-size:26px;fill:url(#gold)}
+  .pf{font-size:26px;fill:#7fe3ff}
+  .st{font-size:13px;letter-spacing:1px;fill:#c8d3e8}
   .sm{font-size:11px;letter-spacing:2px;fill:#7c89a8}</style>
   </defs>
-  <rect width="900" height="360" rx="22" fill="#05060d"/>
-  <rect x="6" y="6" width="888" height="348" rx="20" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.55"/>
-  <rect x="10" y="10" width="880" height="340" rx="19" fill="none" stroke="#2f7fff" stroke-width="2" opacity="0.45"/>
+  <rect width="900" height="420" rx="22" fill="#05060d"/>
+  <rect x="6" y="6" width="888" height="408" rx="20" fill="none" stroke="#ff3b30" stroke-width="2" opacity="0.55"/>
+  <rect x="10" y="10" width="880" height="400" rx="19" fill="none" stroke="#2f7fff" stroke-width="2" opacity="0.45"/>
   <g clip-path="url(#screen)">
-    <rect x="14" y="14" width="872" height="332" fill="url(#cab)"/><text class="heavy ttl" x="52" y="58">STAGE SELECT</text><text class="mono lbl" x="848" y="58" text-anchor="end">1 BOSS / 16 LOCKED</text><path d="M52 70 H848" stroke="#ffd24a" stroke-width="2" opacity="0.55"/>
-    <rect x="52" y="80" width="520" height="180" rx="8" fill="#0f1426" stroke="#ffd24a" stroke-width="2"/>
-    <rect x="52" y="80" width="520" height="34" rx="8" fill="#ffd24a" opacity="0.16"/>
-    <text class="mono sm" x="72" y="102" fill="#ffd24a">FINAL STAGE &#8212; BOSS BATTLE</text>
-    <text class="heavy boss" x="72" y="152">BETTERFOLIO.TECH</text>
-    <text class="mono st" x="72" y="182">Ma plateforme principale.</text>
-    <text class="mono sm" x="72" y="212">STACK   TYPESCRIPT &#183; NEXT.JS &#183; VERCEL</text>
-    <text class="mono sm" x="72" y="234">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
-    <text class="mono sm blink" x="540" y="240" text-anchor="end" fill="#ff3b30">&#9654; PLAY</text>
-    <rect x="592" y="80" width="256" height="56" rx="6" fill="#0f1426" stroke="#2b3554" stroke-width="2"/>
-    <text class="mono st" x="612" y="106">liste-noel</text>
-    <text class="mono sm" x="612" y="124">OPEN &#183; TYPESCRIPT &#183; 2025</text>
-    <rect x="592" y="148" width="256" height="50" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
-    <text class="heavy" style="font-size:20px;fill:#3a4462" x="616" y="181">?</text>
-    <text class="mono sm" x="646" y="179">LOCKED &#183; D&#201;P&#212;T PRIV&#201;</text>
-    <rect x="592" y="206" width="256" height="50" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
-    <text class="heavy" style="font-size:20px;fill:#3a4462" x="616" y="239">?</text>
-    <text class="mono sm" x="646" y="237">LOCKED &#183; D&#201;P&#212;T PRIV&#201;</text>
-    <text class="mono sm" x="592" y="318">15 autres d&#233;p&#244;ts verrouill&#233;s.</text>    <rect x="14" y="14" width="872" height="332" fill="url(#scan)"/>
-    <rect x="14" y="14" width="872" height="332" fill="url(#vig)"/>
+    <rect x="14" y="14" width="872" height="392" fill="url(#cab)"/><text class="heavy ttl" x="52" y="58">STAGE SELECT</text><text class="mono lbl" x="848" y="58" text-anchor="end">2 STAGES / 16 LOCKED</text><path d="M52 70 H848" stroke="#ffd24a" stroke-width="2" opacity="0.55"/>
+    <rect x="52" y="80" width="396" height="170" rx="8" fill="#0f1426" stroke="#ffd24a" stroke-width="2"/>
+    <rect x="52" y="80" width="396" height="30" rx="8" fill="#ffd24a" opacity="0.16"/>
+    <text class="mono sm" x="70" y="100" fill="#ffd24a">FINAL STAGE &#8212; BOSS BATTLE</text>
+    <text class="heavy boss" x="70" y="146">BETTERFOLIO.TECH</text>
+    <text class="mono st" x="70" y="172">Ma plateforme principale.</text>
+    <text class="mono sm" x="70" y="200">TYPESCRIPT &#183; NEXT.JS &#183; VERCEL</text>
+    <text class="mono sm" x="70" y="222">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
+    <text class="mono sm blink" x="428" y="236" text-anchor="end" fill="#ff3b30">&#9654; PLAY</text>
+    <rect x="464" y="80" width="384" height="170" rx="8" fill="#0f1426" stroke="#7fe3ff" stroke-width="2"/>
+    <rect x="464" y="80" width="384" height="30" rx="8" fill="#7fe3ff" opacity="0.14"/>
+    <text class="mono sm" x="482" y="100" fill="#7fe3ff">STAGE 02 &#8212; PLAYER PROFILE</text>
+    <text class="heavy pf" x="482" y="146">PORTFOLIO</text>
+    <text class="mono st" x="482" y="172">CTO &#183; Architecte IT &#183; Lead dev</text>
+    <text class="mono sm" x="482" y="200">12 ANS D&#39;EXP&#201;RIENCE</text>
+    <text class="mono sm" x="482" y="222">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
+    <text class="mono sm blink" x="828" y="236" text-anchor="end" fill="#ff3b30">&#9654; PLAY</text>
+    <rect x="52" y="272" width="396" height="56" rx="6" fill="#0f1426" stroke="#2b3554" stroke-width="2"/>
+    <text class="mono st" x="70" y="296">liste-noel</text>
+    <text class="mono sm" x="70" y="316">OPEN &#183; TYPESCRIPT &#183; 2025</text>
+    <rect x="464" y="272" width="184" height="56" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
+    <text class="heavy" style="font-size:18px;fill:#3a4462" x="484" y="306">?</text>
+    <text class="mono sm" x="508" y="304">LOCKED</text>
+    <text class="mono sm" x="508" y="320">D&#201;P&#212;T PRIV&#201;</text>
+    <rect x="664" y="272" width="184" height="56" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
+    <text class="heavy" style="font-size:18px;fill:#3a4462" x="684" y="306">?</text>
+    <text class="mono sm" x="708" y="304">LOCKED</text>
+    <text class="mono sm" x="708" y="320">D&#201;P&#212;T PRIV&#201;</text>
+    <text class="mono sm" x="52" y="382">15 autres d&#233;p&#244;ts verrouill&#233;s. Le vrai boss fight se joue en priv&#233;.</text>    <rect x="14" y="14" width="872" height="392" fill="url(#scan)"/>
+    <rect x="14" y="14" width="872" height="392" fill="url(#vig)"/>
   </g>
 </svg>

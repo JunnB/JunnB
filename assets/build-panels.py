@@ -118,7 +118,7 @@ def marquee():
       <text class="heavy logo" x="0" y="0" fill="url(#gold)">JUNN</text>
     </g></g>
     <text class="heavy sub" x="450" y="207" text-anchor="middle">II &#183; TURBO EDITION</text>
-    <text class="mono tag" x="450" y="234" text-anchor="middle">TYPESCRIPT &#183; NEXT.JS &#183; REACT &#183; VERCEL</text>
+    <text class="mono tag" x="450" y="234" text-anchor="middle">CTO &#183; ARCHITECTE IT &#183; LEAD DEV FULL-STACK</text>
     <text class="mono coin blink" x="450" y="270" text-anchor="middle">INSERT COIN &#8212; PRESS START</text>
     <text class="mono cred" x="60" y="270">CREDITS 00</text>
     <text class="mono site" x="840" y="270" text-anchor="end">BETTERFOLIO.TECH</text>
@@ -212,35 +212,50 @@ def stats():
 
 # ══ 04 STAGE SELECT / BOSS ═══════════════════════════════════════════════════
 def stage_select():
-    h = 360
-    s = head(h, "Stage select - betterfolio.tech", """
-  .boss{font-size:30px;fill:url(#gold)}
-  .st{font-size:14px;letter-spacing:2px;fill:#c8d3e8}
+    h = 420
+    s = head(h, "Stage select - betterfolio.tech et portfolio", """
+  .boss{font-size:26px;fill:url(#gold)}
+  .pf{font-size:26px;fill:#7fe3ff}
+  .st{font-size:13px;letter-spacing:1px;fill:#c8d3e8}
   .sm{font-size:11px;letter-spacing:2px;fill:#7c89a8}""")
-    s += titlebar(58, "STAGE SELECT", "1 BOSS / 16 LOCKED")
-    # Carte du boss
+    s += titlebar(58, "STAGE SELECT", "2 STAGES / 16 LOCKED")
+
+    # Carte 1 : betterfolio, le boss
     s += f'''
-    <rect x="52" y="80" width="520" height="180" rx="8" fill="#0f1426" stroke="{GOLD}" stroke-width="2"/>
-    <rect x="52" y="80" width="520" height="34" rx="8" fill="{GOLD}" opacity="0.16"/>
-    <text class="mono sm" x="72" y="102" fill="{GOLD}">FINAL STAGE &#8212; BOSS BATTLE</text>
-    <text class="heavy boss" x="72" y="152">BETTERFOLIO.TECH</text>
-    <text class="mono st" x="72" y="182">Ma plateforme principale.</text>
-    <text class="mono sm" x="72" y="212">STACK   TYPESCRIPT &#183; NEXT.JS &#183; VERCEL</text>
-    <text class="mono sm" x="72" y="234">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
-    <text class="mono sm blink" x="540" y="240" text-anchor="end" fill="{RED}">&#9654; PLAY</text>'''
-    # Colonne de droite : projet ouvert + verrouilles
+    <rect x="52" y="80" width="396" height="170" rx="8" fill="#0f1426" stroke="{GOLD}" stroke-width="2"/>
+    <rect x="52" y="80" width="396" height="30" rx="8" fill="{GOLD}" opacity="0.16"/>
+    <text class="mono sm" x="70" y="100" fill="{GOLD}">FINAL STAGE &#8212; BOSS BATTLE</text>
+    <text class="heavy boss" x="70" y="146">BETTERFOLIO.TECH</text>
+    <text class="mono st" x="70" y="172">Ma plateforme principale.</text>
+    <text class="mono sm" x="70" y="200">TYPESCRIPT &#183; NEXT.JS &#183; VERCEL</text>
+    <text class="mono sm" x="70" y="222">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
+    <text class="mono sm blink" x="428" y="236" text-anchor="end" fill="{RED}">&#9654; PLAY</text>'''
+
+    # Carte 2 : le portfolio
     s += f'''
-    <rect x="592" y="80" width="256" height="56" rx="6" fill="#0f1426" stroke="#2b3554" stroke-width="2"/>
-    <text class="mono st" x="612" y="106">liste-noel</text>
-    <text class="mono sm" x="612" y="124">OPEN &#183; TYPESCRIPT &#183; 2025</text>'''
+    <rect x="464" y="80" width="384" height="170" rx="8" fill="#0f1426" stroke="{CYAN}" stroke-width="2"/>
+    <rect x="464" y="80" width="384" height="30" rx="8" fill="{CYAN}" opacity="0.14"/>
+    <text class="mono sm" x="482" y="100" fill="{CYAN}">STAGE 02 &#8212; PLAYER PROFILE</text>
+    <text class="heavy pf" x="482" y="146">PORTFOLIO</text>
+    <text class="mono st" x="482" y="172">CTO &#183; Architecte IT &#183; Lead dev</text>
+    <text class="mono sm" x="482" y="200">12 ANS D&#39;EXP&#201;RIENCE</text>
+    <text class="mono sm" x="482" y="222">STATUS  <tspan fill="#4ade80">EN LIGNE</tspan></text>
+    <text class="mono sm blink" x="828" y="236" text-anchor="end" fill="{RED}">&#9654; PLAY</text>'''
+
+    # Rangee du bas : le depot public recent, puis les verrouilles
+    s += f'''
+    <rect x="52" y="272" width="396" height="56" rx="6" fill="#0f1426" stroke="#2b3554" stroke-width="2"/>
+    <text class="mono st" x="70" y="296">liste-noel</text>
+    <text class="mono sm" x="70" y="316">OPEN &#183; TYPESCRIPT &#183; 2025</text>'''
     for i in range(2):
-        y = 148 + i * 58
+        x = 464 + i * 200
         s += f'''
-    <rect x="592" y="{y}" width="256" height="50" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
-    <text class="heavy" style="font-size:20px;fill:#3a4462" x="616" y="{y+33}">?</text>
-    <text class="mono sm" x="646" y="{y+31}">LOCKED &#183; D&#201;P&#212;T PRIV&#201;</text>'''
+    <rect x="{x}" y="272" width="184" height="56" rx="6" fill="#0b0f1e" stroke="#232c47" stroke-width="2"/>
+    <text class="heavy" style="font-size:18px;fill:#3a4462" x="{x+20}" y="{306}">?</text>
+    <text class="mono sm" x="{x+44}" y="{304}">LOCKED</text>
+    <text class="mono sm" x="{x+44}" y="{320}">D&#201;P&#212;T PRIV&#201;</text>'''
     s += f'''
-    <text class="mono sm" x="592" y="{h-42}">15 autres d&#233;p&#244;ts verrouill&#233;s.</text>'''
+    <text class="mono sm" x="52" y="{h-38}">15 autres d&#233;p&#244;ts verrouill&#233;s. Le vrai boss fight se joue en priv&#233;.</text>'''
     write("04-stage-select.svg", s + foot(h))
 
 
