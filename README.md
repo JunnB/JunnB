@@ -110,7 +110,6 @@
  ║   >>  BETTERFOLIO.TECH                                                   ║
  ║                                                                          ║
  ║   Ma plateforme principale.                                              ║
- ║   -- une ligne de description à compléter --                             ║
  ║                                                                          ║
  ║   STACK ....  TypeScript  +  Next.js  +  Vercel                          ║
  ║   STATUS ...  EN LIGNE                                                   ║
@@ -137,9 +136,8 @@
 
 ```
  ┌──────────────────────────────────────────────────────────────────────────┐
- │  SITE ........  betterfolio.tech                                         │
- │  GITHUB ......  github.com/JunnB                                         │
- │  LINKEDIN ....  -- ton URL LinkedIn à compléter --                       │
+ │  SITE ......  betterfolio.tech                                           │
+ │  GITHUB ....  github.com/JunnB                                           │
  └──────────────────────────────────────────────────────────────────────────┘
 ```
 
