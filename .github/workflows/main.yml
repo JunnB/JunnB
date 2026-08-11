@@ -52,8 +52,12 @@ jobs:
           # ── Désactivés : ces plugins rendaient une erreur visible dans l'image ──
           #
           # plugin_pagespeed  -> "PageSpeed Insights API returned 400" sur
-          #   https://betterfolio.tech. À réactiver avec une URL joignable et un
-          #   PAGESPEED_TOKEN valide :
+          #   https://betterfolio.tech. Le site est bien en ligne, donc le
+          #   suspect n°1 est le secret PAGESPEED_TOKEN (une clé API invalide
+          #   fait répondre 400 à l'API PageSpeed Insights). Pour vérifier :
+          #     curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed\
+          #       ?url=https://betterfolio.tech&key=$PAGESPEED_TOKEN" | head
+          #   Puis réactiver :
           #     plugin_pagespeed: yes
           #     plugin_pagespeed_detailed: yes
           #     plugin_pagespeed_screenshot: yes

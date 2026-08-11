@@ -50,6 +50,7 @@
       .tag    { font-size: 14px; letter-spacing: 3px; fill: #a8bcdd; }
       .coin   { font-size: 17px; letter-spacing: 4px; fill: #ff4d4d; animation: blink 1.1s steps(1) infinite; }
       .credit { font-size: 13px; letter-spacing: 2px; fill: #6c7a94; }
+      .site   { font-size: 13px; letter-spacing: 2px; fill: #7fe3ff; }
       .hi     { font-size: 13px; letter-spacing: 2px; fill: #ffd24a; }
 
       /* Les barres sont statiques : animer `width` laisserait un etat de repos
@@ -113,7 +114,7 @@
 
     <text class="mono coin"   x="450" y="270" text-anchor="middle">INSERT COIN &#8212; PRESS START</text>
     <text class="mono credit" x="60"  y="270">CREDITS 00</text>
-    <text class="mono credit" x="840" y="270" text-anchor="end">1P START</text>
+    <text class="mono site" x="840" y="270" text-anchor="end">BETTERFOLIO.TECH</text>
 
     <rect x="14" y="14" width="872" height="272" fill="url(#scan)"/>
     <rect x="14" y="14" width="872" height="272" fill="url(#vig)"/>

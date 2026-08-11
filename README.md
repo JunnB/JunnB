@@ -86,18 +86,41 @@
  ┌──────────────────────┬──────────────┬────────────────────────────────┐
  │ STAGE                │ LANG         │ STATUS                         │
  ├──────────────────────┼──────────────┼────────────────────────────────┤
+ │ betterfolio          │ TypeScript   │ BOSS     ::  betterfolio.tech  │
+ ├──────────────────────┼──────────────┼────────────────────────────────┤
  │ liste-noel           │ TypeScript   │ OPEN     ::  2025              │
  │ jdr / jdr-native     │ JavaScript   │ OPEN     ::  2018              │
  │ gatling-json-gen     │ -            │ OPEN     ::  2020              │
  │ PrintIt              │ Ruby         │ OPEN     ::  2016  (round 1)   │
  ├──────────────────────┼──────────────┼────────────────────────────────┤
  │ ?????????            │ TypeScript   │ LOCKED   ::  privé             │
- │ ?????????            │ TypeScript   │ LOCKED   ::  privé             │
  │ ?????????            │ GDScript     │ LOCKED   ::  privé             │
  └──────────────────────┴──────────────┴────────────────────────────────┘
 ```
 
-<sub>16 dépôts verrouillés. Le vrai boss fight se joue en privé.</sub>
+<sub>15 autres dépôts verrouillés. Le vrai boss fight se joue en privé.</sub>
+
+## `▶` FINAL STAGE
+
+```
+ ╔══════════════════════════════════════════════════════════════════════════╗
+ ║  FINAL STAGE                                          BOSS  BATTLE       ║
+ ╠══════════════════════════════════════════════════════════════════════════╣
+ ║                                                                          ║
+ ║   >>  BETTERFOLIO.TECH                                                   ║
+ ║                                                                          ║
+ ║   Ma plateforme principale.                                              ║
+ ║   -- une ligne de description à compléter --                             ║
+ ║                                                                          ║
+ ║   STACK ....  TypeScript  +  Next.js  +  Vercel                          ║
+ ║   STATUS ...  EN LIGNE                                                   ║
+ ║                                                                          ║
+ ╚══════════════════════════════════════════════════════════════════════════╝
+```
+
+<div align="center">
+  <a href="https://betterfolio.tech"><b><code>▶ betterfolio.tech</code></b></a>
+</div>
 
 <details>
 <summary><b><code>▶</code> CONTINUE? &nbsp; 9 &nbsp; 8 &nbsp; 7 &nbsp; ... &nbsp;&nbsp; <i>(stats complètes)</i></b></summary>
@@ -114,11 +137,19 @@
 
 ```
  ┌──────────────────────────────────────────────────────────────────────────┐
- │  GITHUB ....  github.com/JunnB                                           │
- │  MAIL ......  -- à compléter --                                          │
- │  SITE ......  -- à compléter --                                          │
+ │  SITE ........  betterfolio.tech                                         │
+ │  GITHUB ......  github.com/JunnB                                         │
+ │  LINKEDIN ....  -- ton URL LinkedIn à compléter --                       │
  └──────────────────────────────────────────────────────────────────────────┘
 ```
+
+<div align="center">
+  <a href="https://betterfolio.tech"><b>betterfolio.tech</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/JunnB"><b>GitHub</b></a>
+</div>
+
+<br>
 
 <div align="center">
   <sub><code>PRESS START</code> &nbsp;·&nbsp; stats régénérées chaque jour par GitHub Actions</sub>
